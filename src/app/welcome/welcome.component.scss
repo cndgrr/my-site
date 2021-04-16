@@ -1,0 +1,55 @@
+:host {
+  display: block;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #c9c5c6;
+  height: calc(100vh - 4rem);
+  max-height: 520px;
+  padding: 1rem 1rem 0 1rem;
+  overflow: hidden;
+
+  &__title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  &__cta {
+    display: block;
+    margin: 0.5rem auto;
+  }
+
+  &__image {
+    margin: 0;
+    width: 250px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .welcome {
+    flex-direction: row;
+    justify-content: center;
+
+    &__title {
+      text-align: left;
+      font-size: 2.5rem;
+    }
+
+    &__cta {
+      font-size: 1.5rem;
+    }
+
+    &__image {
+      width: 400px;
+    }
+  }
+}
