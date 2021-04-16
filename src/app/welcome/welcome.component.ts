@@ -10,6 +10,7 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
           I’m <b>Cindy</b> <br />
           <b>Guerra</b>.
         </h2>
+        <p class="welcome__subtitle">Talent Acquisition Specialist</p>
         <button class="button welcome__cta">Ask for Quote</button>
       </div>
       <figure class="welcome__image">

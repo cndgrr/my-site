@@ -3,6 +3,9 @@
 }
 
 .cover-letter {
+  background-color: #dcd9d8;
+  border-bottom: 1px solid #0f557c;
+
   &__title {
     margin: 0;
     margin-bottom: 1rem;
@@ -37,10 +40,11 @@
       display: flex;
       justify-content: center;
       align-items: center;
-
       flex-basis: 200px;
       flex-shrink: 0;
+
       margin: 0;
+      box-shadow: 2px 0px 3px 2px rgba(0, 0, 0, 0.1);
     }
 
     &__content {
