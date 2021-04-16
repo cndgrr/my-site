@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
     <main>
       <app-welcome></app-welcome>
       <app-about></app-about>
+      <app-skills></app-skills>
     </main>
   `,
   styleUrls: ['./app.component.scss'],
