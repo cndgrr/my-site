@@ -1,4 +1,5 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { Fact } from '../core/interfaces/fact.interface';
 
 @Component({
   selector: 'app-facts',
@@ -6,32 +7,11 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
     <section class="facts">
       <h2 class="facts__title">Facts</h2>
       <div class="facts__content">
-        <figure>
-          <img src="assets/images/sign-offs.png" />
+        <figure *ngFor="let fact of facts">
+          <img [src]="fact.imagePath" />
           <figcaption class="fact">
-            <p class="fact__count">60+</p>
-            <p class="fact__title">Sign offs</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img src="assets/images/client-locations.png" />
-          <figcaption class="fact">
-            <p class="fact__count">30+</p>
-            <p class="fact__title">Client Locations</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img src="assets/images/connections.png" />
-          <figcaption class="fact">
-            <p class="fact__count">5K+</p>
-            <p class="fact__title">Connections</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img src="assets/images/active-spots.png" />
-          <figcaption class="fact">
-            <p class="fact__count">40+</p>
-            <p class="fact__title">Active Spots</p>
+            <p class="fact__count">{{ fact.count }}</p>
+            <p class="fact__title">{{ fact.title }}</p>
           </figcaption>
         </figure>
       </div>
@@ -40,8 +20,27 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
   styleUrls: ['./facts.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class FactsComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit(): void {}
+export class FactsComponent {
+  facts: Fact[] = [
+    {
+      title: 'Connections',
+      count: '5K',
+      imagePath: 'assets/images/connections.png',
+    },
+    {
+      title: 'Client Locations',
+      count: '30',
+      imagePath: 'assets/images/client-locations.png',
+    },
+    {
+      title: 'Active Spots',
+      count: '40',
+      imagePath: 'assets/images/active-spots.png',
+    },
+    {
+      title: 'Sign offs',
+      count: '60',
+      imagePath: 'assets/images/sign-offs.png',
+    },
+  ];
 }
