@@ -10,6 +10,7 @@ import { Component } from '@angular/core';
         <app-about></app-about>
         <app-skills></app-skills>
         <app-cover-letter></app-cover-letter>
+        <app-thumbnails></app-thumbnails>
       </div>
     </main>
   `,

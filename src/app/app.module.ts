@@ -6,6 +6,7 @@ import { WelcomeModule } from './welcome/welcome.module';
 import { AboutModule } from './about/about.module';
 import { SkillsModule } from './skills/skills.module';
 import { CoverLetterModule } from './cover-letter/cover-letter.module';
+import { ThumbnailsModule } from './thumbnails/thumbnails.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -15,6 +16,7 @@ import { CoverLetterModule } from './cover-letter/cover-letter.module';
     AboutModule,
     SkillsModule,
     CoverLetterModule,
+    ThumbnailsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

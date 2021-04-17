@@ -1,0 +1,36 @@
+:host {
+  display: block;
+}
+
+.thumbnails {
+  background-color: #fffefd;
+  border-bottom: 1px solid #dcd9d8;
+  text-align: center;
+  padding: 2rem;
+
+  figure {
+    width: 9rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+
+    img {
+      width: 100%;
+    }
+
+    figcaption {
+      margin-top: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .thumbnails {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+
+    figure {
+      margin: 0;
+    }
+  }
+}
