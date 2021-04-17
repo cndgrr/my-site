@@ -3,7 +3,6 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-    <header class="header">MENU</header>
     <main>
       <app-welcome></app-welcome>
       <div class="content">
