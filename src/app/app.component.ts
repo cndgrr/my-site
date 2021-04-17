@@ -15,19 +15,24 @@ import { Component } from '@angular/core';
       </div>
       <ul class="social-networks">
         <li>
-          <a target="_blank" href="https://github.com/cndgrr">
+          <a
+            href="https://github.com/cndgrr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="assets/images/github.png" alt="Go to my github" />
           </a>
         </li>
         <li>
-          <a target="_blank" href="#">
+          <a href="#" target="_blank">
             <img src="assets/images/twitter.png" alt="Go to my twitter" />
           </a>
         </li>
         <li>
           <a
-            target="_blank"
             href="https://www.linkedin.com/in/cindy-guerra-mendez/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img src="assets/images/linkedin.png" alt="Go to my linkedin" />
           </a>
