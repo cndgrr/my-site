@@ -23,22 +23,30 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
           Also, I really enjoy meeting new people and learning a bit more each
           day about the IT world (and their neverending-upgrades/versions).
         </p>
-        <dl>
-          <dt>NAME:</dt>
-          <dd>Cindy Guerra</dd>
-          <br />
-          <dt>LOCATION:</dt>
-          <dd>Montevideo, UY</dd>
-          <br />
-          <dt>LANGUAGES:</dt>
-          <dd>Spanish, English</dd>
-          <br />
-          <dt>INTERESTS:</dt>
-          <dd>Cooking, Horror movies, Travel</dd>
-          <br />
-          <dt>BUSINESS EMAIL:</dt>
-          <dd>cindyguerratas@gmail.com</dd>
-        </dl>
+
+        <div class="about-body">
+          <dl>
+            <dt>NAME:</dt>
+            <dd>Cindy Guerra</dd>
+            <br />
+            <dt>LOCATION:</dt>
+            <dd>Montevideo, UY</dd>
+            <br />
+            <dt>LANGUAGES:</dt>
+            <dd>Spanish, English</dd>
+            <br />
+            <dt>INTERESTS:</dt>
+            <dd>Cooking, Horror movies, Travel</dd>
+            <br />
+            <dt>BUSINESS EMAIL:</dt>
+            <dd>cindyguerratas@gmail.com</dd>
+          </dl>
+
+          <figure>
+            <img src="assets/images/cv.png" />
+            <figcaption>Download CV</figcaption>
+          </figure>
+        </div>
       </div>
     </section>
   `,
