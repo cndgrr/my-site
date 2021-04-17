@@ -7,6 +7,8 @@ import { AboutModule } from './about/about.module';
 import { SkillsModule } from './skills/skills.module';
 import { CoverLetterModule } from './cover-letter/cover-letter.module';
 import { ThumbnailsModule } from './thumbnails/thumbnails.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ExperiencesModule } from './experiences/experiences.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -17,6 +19,8 @@ import { ThumbnailsModule } from './thumbnails/thumbnails.module';
     SkillsModule,
     CoverLetterModule,
     ThumbnailsModule,
+    FontAwesomeModule,
+    ExperiencesModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -11,6 +11,7 @@ import { Component } from '@angular/core';
         <app-skills></app-skills>
         <app-cover-letter></app-cover-letter>
         <app-thumbnails></app-thumbnails>
+        <app-experiences></app-experiences>
       </div>
     </main>
   `,

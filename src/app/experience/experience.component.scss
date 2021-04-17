@@ -1,0 +1,59 @@
+:host {
+  display: block;
+}
+
+.experience {
+  &__content {
+    margin-top: 1.5rem;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    width: 100%;
+    border: none;
+    text-align: left;
+    padding: 1rem;
+    background: rgb(124, 28, 0);
+    background: linear-gradient(
+      315deg,
+      rgba(124, 28, 0, 1) 0%,
+      rgba(160, 36, 0, 1) 100%
+    );
+    border-radius: 5px;
+  }
+
+  &__title {
+    margin: 0;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    color: white;
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  &__subtitle {
+    margin: 0;
+    margin-right: 1rem;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+  }
+
+  &__trigger {
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+
+  &__icon {
+    color: white;
+  }
+}
+
+.experience:last-child {
+  margin: 0;
+}
