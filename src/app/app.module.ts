@@ -9,6 +9,7 @@ import { CoverLetterModule } from './cover-letter/cover-letter.module';
 import { ThumbnailsModule } from './thumbnails/thumbnails.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ExperiencesModule } from './experiences/experiences.module';
+import { FactsModule } from './facts/facts.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -21,6 +22,7 @@ import { ExperiencesModule } from './experiences/experiences.module';
     ThumbnailsModule,
     FontAwesomeModule,
     ExperiencesModule,
+    FactsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

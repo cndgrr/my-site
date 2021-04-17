@@ -12,6 +12,7 @@ import { Component } from '@angular/core';
         <app-cover-letter></app-cover-letter>
         <app-thumbnails></app-thumbnails>
         <app-experiences></app-experiences>
+        <app-facts></app-facts>
       </div>
     </main>
   `,
