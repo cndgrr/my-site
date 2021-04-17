@@ -32,7 +32,7 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
             </div>
             <div>
               <dt>LOCATION:</dt>
-              <dd>Montevideo, UY</dd>
+              <dd>Montevideo, UY <span aria-hidden="true">🇺🇾</span></dd>
             </div>
             <div>
               <dt>LANGUAGES:</dt>
@@ -40,7 +40,11 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
             </div>
             <div>
               <dt>INTERESTS:</dt>
-              <dd>Cooking, Horror movies, Travel</dd>
+              <dd>
+                Cooking <span aria-hidden="true">👩‍🍳</span>, Horror movies
+                <span aria-hidden="true">👻</span>, Travel
+                <span aria-hidden="true">🛫</span>
+              </dd>
             </div>
             <div>
               <dt>BUSINESS EMAIL:</dt>

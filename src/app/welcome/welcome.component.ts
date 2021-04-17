@@ -6,7 +6,7 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
     <section class="welcome">
       <div>
         <h2 class="welcome__title">
-          Hi, <br />
+          Hi <span aria-hidden="true">👋🏻,</span> <br />
           I’m <b>Cindy</b> <br />
           <b>Guerra</b>.
         </h2>
