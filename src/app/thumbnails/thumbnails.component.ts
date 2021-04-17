@@ -5,15 +5,15 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
   template: `
     <section class="thumbnails">
       <figure>
-        <img src="assets/images/humanistic-approach.png" />
+        <img alt="" src="assets/images/humanistic-approach.png" />
         <figcaption>Humanistic Approach</figcaption>
       </figure>
       <figure>
-        <img src="assets/images/transparency.png" />
+        <img alt="" src="assets/images/transparency.png" />
         <figcaption>Transparency</figcaption>
       </figure>
       <figure>
-        <img src="assets/images/global-recruitment.png" />
+        <img alt="" src="assets/images/global-recruitment.png" />
         <figcaption>Global Recruitment</figcaption>
       </figure>
     </section>

@@ -19,6 +19,7 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
             assets/images/cindy-large.png 1000w,
             assets/images/cindy-small.png  300w
           "
+          alt=""
         />
       </figure>
     </section>

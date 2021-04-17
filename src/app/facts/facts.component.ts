@@ -8,7 +8,7 @@ import { Fact } from '../core/interfaces/fact.interface';
       <h2 class="facts__title">Facts</h2>
       <div class="facts__content">
         <figure *ngFor="let fact of facts">
-          <img [src]="fact.imagePath" />
+          <img alt="" [src]="fact.imagePath" />
           <figcaption class="fact">
             <p class="fact__count">{{ fact.count }}</p>
             <p class="fact__title">{{ fact.title }}</p>
